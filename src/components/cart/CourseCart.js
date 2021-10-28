@@ -31,7 +31,7 @@ export default class CourseCart extends Component {
                     <button 
                      data-item-id={node.id}
                      data-item-price={node.pricing}
-                     data-item-url=" "
+                     data-item-url="https://shopandship.netlify.app/"
                      data-item-image={node.image.fixed.src}
                      data-item-name={node.title}
                     className="btn btn-warning snipcart-add-item">
