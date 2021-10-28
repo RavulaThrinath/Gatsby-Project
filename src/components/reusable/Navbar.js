@@ -45,7 +45,7 @@ export default class navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-theme text-white">
         <Link to="/" className="navbar-brand ml-5">
-          <img src={logo} width="40px" />
+          <img src={logo} alt="suppose" width="40px" />
         </Link>
         <button
           className="navbar-toggler"

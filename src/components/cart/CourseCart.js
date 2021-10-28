@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Heading from "../reusable/Heading"
 import Img from "gatsby-image"
-import { array } from "prop-types"
+
 
 const getCaty = items => {
   let holdItems = items.map(items => {
