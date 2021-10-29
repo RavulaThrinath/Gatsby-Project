@@ -1,5 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+
 * {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 100px;
+  margin: auto;
 }
 
 
@@ -32,4 +45,203 @@
 span {
   color: #693692;
   font-weight: 500;
+}
+
+.fcc { 
+/* display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between; */
+text-align: justify;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+  padding: 30px;
+
+}
+
+
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text-1{
+  text-align: justify;
+}
+
+
+.contact .contact-content .left .icons {
+  margin: 10px 0;
+}
+
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+
+.contact .contact-content .row .info {
+  margin-left: 30px;
+}
+
+.contact .contact-content .row .icon {
+  font-size: 25px;
+  color: #693692;
+}
+
+.contact .contact-content .row .info .head {
+  font-weight: 900;
+}
+
+.contact .right form .fields {
+  display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+  height: 80px;
+  width: 100%;
+
+}
+
+.contact .right form .name {
+  margin-right: 10px;
+}
+
+.contact .right form .email {
+  margin-left: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+
+.contact .right form .button {
+  height: 47px;
+  width: 170px;
+  margin-top: 10px;
+
+}
+
+.contact .right form .button button {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: #693692;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+
+.contact .right form .button button:hover {
+  background: none;
+  color: #693692;
+  border: 2px solid #693692;
+}
+
+footer {
+  background: #000000;
+  padding: 40px 43px;
+  color: #fff;
+}
+
+.footer-class {
+  text-align: center;
+}
+
+footer span Link {
+  color: #693692;
+}
+
+footer span Link:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons {
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+footer .social-icons .s1 img {
+  transition: 0.3s ease;
+  padding: 2px;
+}
+
+footer .social-icons .s1 img:hover {
+  transform: translateY(-4px);
+}
+
+footer .social-icons .s2 img {
+  transition: 0.3s ease;
+  padding: 2px;
+  
+}
+
+footer .social-icons .s2 img:hover {
+  transform: translateY(-4px);
+}
+
+footer .social-icons .s3 img {
+  transition: 0.3s ease;
+  padding: 2px;
+  
+}
+
+footer .social-icons .s3 img:hover {
+  transform: translateY(-4px);
+}
+
+footer .social-icons .s4 img {
+  transition: 0.3s ease;
+  padding: 2px;
+  
+}
+
+footer .social-icons .s4 img:hover {
+  transform: translateY(-4px);
+}
+
+footer .social-icons .s5 img {
+  transition: 0.3s ease;
+  padding: 2px;
+
+}
+
+footer .social-icons .s5 img:hover {
+  transform: translateY(-4px);
 }
