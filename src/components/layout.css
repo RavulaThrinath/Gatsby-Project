@@ -1,3 +1,8 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .bg-theme {
   background-color: #1f7dbb;
 }
@@ -23,4 +28,8 @@
 
 .btn-warning {
   padding: 8px 35px;
+}
+span {
+  color: #693692;
+  font-weight: 500;
 }

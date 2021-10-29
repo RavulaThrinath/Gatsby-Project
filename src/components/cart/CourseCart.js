@@ -67,7 +67,7 @@ export default class CourseCart extends Component {
                   <div className="flex-grow-1 px-3">
                     <div className="d-flex ">
                       <h6 className="mb-6">{node.title}</h6>
-                      <h6 className="mb-6 text-success ml-5">$ {node.pricing}</h6>
+                      <h6 className="mb-6 text-success ml-5">Rs. {node.pricing}</h6>
                     </div>
                     <p className="text-muted">{node.description.description}</p>
                     <button 
