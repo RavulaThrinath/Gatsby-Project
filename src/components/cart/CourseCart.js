@@ -49,7 +49,7 @@ export default class CourseCart extends Component {
                 {
                   this.state.myCategories.map((category, index) => {
                     return (
-                      <button type="button" className="btn btn-info m-3 px-3" key={index} onClick={() => {
+                      <button type="button" className="batton btn-space" key={index} onClick={() => {
                         this.catyClicked(category)
                       }}>
                         {category}
@@ -67,7 +67,7 @@ export default class CourseCart extends Component {
                   <div className="flex-grow-1 px-3">
                     <div className="d-flex ">
                       <h6 className="mb-6">{node.title}</h6>
-                      <h6 className="mb-6 text-success ml-5">Rs. {node.pricing}</h6>
+                      <h6 className="mb-6 text-success ml-5">Rs {node.pricing}</h6>
                     </div>
                     <p className="text-muted">{node.description.description}</p>
                     <button 
@@ -76,7 +76,7 @@ export default class CourseCart extends Component {
                      data-item-url="https://shopandship.netlify.app/"
                      data-item-image={node.image.fixed.src}
                      data-item-name={node.title}
-                    className="btn btn-warning snipcart-add-item">
+                    className="baatton">
                       Join now</button>
                   </div>
                 </div>
@@ -84,6 +84,7 @@ export default class CourseCart extends Component {
             })}
           </div>
         </div>
+        
       </section>
     )
   }

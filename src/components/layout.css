@@ -8,7 +8,9 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+  /* overflow: auto; */
 }
+
 .max-width {
   max-width: 1300px;
   padding: 0 100px;
@@ -31,6 +33,7 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .about-background {
   min-height: 30vh;
   display: flex;
@@ -42,17 +45,18 @@
 .btn-warning {
   padding: 8px 35px;
 }
+
 span {
   color: #693692;
   font-weight: 500;
 }
 
-.fcc { 
-/* display: flex;
+.fcc {
+  /* display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-between; */
-text-align: justify;
+  text-align: justify;
 }
 
 .contact-content {
@@ -75,7 +79,7 @@ text-align: justify;
   margin-bottom: 10px;
 }
 
-.text-1{
+.text-1 {
   text-align: justify;
 }
 
@@ -209,7 +213,7 @@ footer .social-icons .s1 img:hover {
 footer .social-icons .s2 img {
   transition: 0.3s ease;
   padding: 2px;
-  
+
 }
 
 footer .social-icons .s2 img:hover {
@@ -219,7 +223,7 @@ footer .social-icons .s2 img:hover {
 footer .social-icons .s3 img {
   transition: 0.3s ease;
   padding: 2px;
-  
+
 }
 
 footer .social-icons .s3 img:hover {
@@ -229,7 +233,7 @@ footer .social-icons .s3 img:hover {
 footer .social-icons .s4 img {
   transition: 0.3s ease;
   padding: 2px;
-  
+
 }
 
 footer .social-icons .s4 img:hover {
@@ -244,4 +248,58 @@ footer .social-icons .s5 img {
 
 footer .social-icons .s5 img:hover {
   transform: translateY(-4px);
+}
+
+/* course cart button  */
+
+.batton {
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: #693692;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 2px;
+
+}
+
+
+.baatton {
+  width: auto;
+  height: auto;
+  color: #693692;
+  border: 2px solid #693692;
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 2px;
+  
+}
+
+.baatton:hover {
+  background: #693692;
+  color: #ffffff;
+  border: 2px solid #693692;
+}
+
+
+.batton:hover {
+  background: none;
+  color: #693692;
+  border: 2px solid #693692;
+}
+
+.btn-space {
+  width: 130px;
+  height: auto;
+  margin-right: 50px;
 }
