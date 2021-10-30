@@ -11,6 +11,40 @@
   /* overflow: auto; */
 }
 
+.home {
+  display: flex;
+  background: url("../images/Heromain.png") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+   /* background-attachment: fixed;  */
+  color: black;
+  min-height: 100px;
+} 
+
+.home .max-width {
+  margin: auto 0 140px 10px;
+}
+
+.home .home-content .text-1 {
+  font-size: 40px;
+}
+
+.home .home-content .text-2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: -3px;
+  color: #693692;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.navbar {
+  background: #693692;
+}
+
 .max-width {
   max-width: 1300px;
   padding: 0 100px;
@@ -48,7 +82,7 @@
 
 span {
   color: #693692;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .fcc {
@@ -58,7 +92,13 @@ align-items: center;
 justify-content: space-between; */
   text-align: justify;
 }
-
+.lead {
+    text-align: justify;
+}
+.bg-theme {
+  background: #693692;
+  color: #fff;
+}
 .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -289,6 +329,19 @@ footer .social-icons .s5 img:hover {
   background: #693692;
   color: #ffffff;
   border: 2px solid #693692;
+}
+.btn-warning {
+  width: 25%;
+  color: #693692;
+  background: #ffffff;
+  border: 2px solid #693692;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-warning:hover {
+  background: #693692;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 

@@ -8,13 +8,13 @@ import InfoBlock from "../components/reusable/InfoBlock"
 import DualInfoBlock from "../components/reusable/DualInfoBlock"
 import CourseCart from "../components/cart/CourseCart"
 
+
 const IndexPage = ({ data }) => (
   <Layout>
     <Seo title="Home" />  
     <HeroSection
-      img={data.fileName.childImageSharp.fluid}
-      title="I Write code"
-      subtitle="LearnCodeOnline.in"
+      title="Shop and Ship"
+      subtitle="An E-commerce Website"
       heroclass="hero-background"
     />
     <InfoBlock heading="About Us" />
@@ -25,13 +25,6 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    fileName: file(relativePath: { eq: "heromai.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400, maxHeight: 250) {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
     courses: allContentfulCourses {
       edges {
         node {

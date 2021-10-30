@@ -6,7 +6,6 @@ import Seo from "../components/seo"
 import HeroSection from "../components/reusable/HeroSection"
 import InfoBlock from "../components/reusable/InfoBlock"
 import DualInfoBlock from "../components/reusable/DualInfoBlock"
-import TeamPhoto from "../components/aboutus/TeamPhoto"
 
 const AboutPage = ({ data }) => (
   <Layout>
@@ -17,9 +16,8 @@ const AboutPage = ({ data }) => (
       subtitle=""
       heroclass="about-background"
     />
-    <DualInfoBlock heading="A Message From CEo" />
-    <InfoBlock heading="About Vision"/>
-    <TeamPhoto />
+    <DualInfoBlock heading="About This Project" />
+    <InfoBlock heading="About Me"/>
   </Layout>
 )
 

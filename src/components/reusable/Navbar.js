@@ -20,11 +20,6 @@ export default class navbar extends Component {
       },
       {
         id: 3,
-        text: "Services",
-        Url: "/services",
-      },
-      {
-        id: 4,
         text: "Contact",
         Url: "/contact",
       },
@@ -43,7 +38,7 @@ export default class navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-theme text-white">
+      <nav className="navbar navbar-expand-sm  text-white">
         <Link to="/" className="navbar-brand ml-5">
           <img src={logo} alt="suppose" width="70px" />
         </Link>

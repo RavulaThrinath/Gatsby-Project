@@ -1,18 +1,17 @@
 import React from "react"
-import BackgroundImage from 'gatsby-background-image'           
+import BackgroundImage from "gatsby-background-image"
 
-export default function HeroSection({img, title, subtitle, heroclass}) {
+export default function HeroSection({ title, subtitle  }) {
   return (
-      <BackgroundImage
-      className={heroclass}
-      fluid={img}
-      >
-          <div>
-              <h1 className="text-white text-uppercase text-center display-4">{title}</h1>
-              <h4 className="text-warning text-center">{subtitle}</h4>
-          </div>
-
-      </BackgroundImage>
-
+    
+      <section className="home">
+      <div className="max-width">
+        <div className="home-content">
+          <div className="text-1">{title}</div>
+          <div className="text-2">{subtitle}</div>
+          <div class="text-3">A Web Developer</div>
+        </div>
+      </div>
+      </section>
   )
 }
