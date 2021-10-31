@@ -19,7 +19,7 @@ export default function InfoBlock({ heading }) {
               where i work.
             </p>
             <Link to="/about/">
-              <button className="btn btn-warning btn-lg">{heading}</button>
+              <button className="btn btn-warning btn-lg">About Me</button>
             </Link>
           </div>
         </div>
