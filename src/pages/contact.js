@@ -3,21 +3,15 @@ import {  graphql  } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import HeroSection from "../components/reusable/HeroSection"
+// import HeroSection from "../components/reusable/HeroSection"
 import InfoBlock from "../components/reusable/InfoBlock"
 import Contact from "../components/contact/Contact"
 
 const ContactPage = ({ data }) => (
   <Layout>
     <Seo title="Home" />
-    <HeroSection
-      img={data.fileName.childImageSharp.fluid}
-      title="Contact Us"
-      subtitle=""
-      heroclass="about-background"
-    />
 
-    <InfoBlock heading="How Can we Help" />
+    <InfoBlock heading="How can i help you" />
     <Contact />
   </Layout>
 )
